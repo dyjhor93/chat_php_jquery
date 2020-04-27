@@ -1,0 +1,133 @@
+/* CSS Document */
+
+body {
+    font: 12px arial;
+    color: #222;
+    text-align: center;
+    padding: 0px;
+    background: #222;
+}
+
+form, p, span {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    font: 12px arial;
+}
+
+a {
+    color: #0000FF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#wrapper, #loginform {
+    margin: 0 auto;
+    padding-bottom: 25px;
+    background: darkgrey;
+    width: 100%;
+    border: 1px solid #ACD8F0;
+}
+
+#loginform {
+    padding-top: 18px;
+}
+
+#loginform p {
+    margin: 5px;
+}
+
+#chatbox {
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    padding: 10px;
+    background: rgba(222, 222, 222, 0.3);
+    height: 270px;
+    width: 90%;
+    border: 1px solid #ACD8F0;
+    overflow: auto;
+}
+
+#usermsg {
+    width: 80%;
+    border: 1px solid #ACD8F0;
+}
+
+#submit {
+    width: 60px;
+}
+
+.error {
+    color: #ff0000;
+}
+
+#menu {
+    padding: 12.5px 25px 12.5px 25px;
+}
+
+.welcome {
+    float: left;
+}
+
+.logout {
+    float: right;
+}
+
+.msgln {
+    margin: 0 0 2px 0;
+}
+
+@media only screen and (min-width: 500px) {
+    #wrapper, #loginform {
+        width: 95%;
+    }
+    body {
+        padding-inline: 5%;
+    }
+}
+@media only screen and (min-width: 600px) {
+    #wrapper, #loginform {
+        width: 90%;
+    }
+    body {
+        padding-inline: 6%;
+    }
+}
+@media only screen and (min-width: 700px) {
+    #wrapper, #loginform {
+        width: 80%;
+    }
+    body {
+        padding-inline: 7%;
+    }
+}
+@media only screen and (min-width: 800px) {
+    #wrapper, #loginform {
+        width: 70%;
+    }
+    body {
+        padding-inline: 8%;
+    }
+}
+@media only screen and (min-width: 900px) {
+    #wrapper, #loginform {
+        width: 60%;
+    }
+    body {
+        padding-inline: 9%;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    #wrapper, #loginform {
+        width: 60%;
+    }
+    body {
+        padding-inline: 10%;
+    }
+}
